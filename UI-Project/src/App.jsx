@@ -1,10 +1,11 @@
 import React from 'react'
-import section1 from './components/section1/section1'
+import Section1 from './components/Section1/Section1'
+import Section2 from './components/Section2/Section2'
 const App = () => {
   return (
     <div >
-      <section1 />
-      <section2 />
+      <Section1 />
+      <Section2 />
     </div>
   )
 }

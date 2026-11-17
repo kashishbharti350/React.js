@@ -1,9 +1,11 @@
 import React from 'react'
 
-const section1 = () => {
+const Section1 = () => {
   return (
-    <div className='h-screen w-full bg-gray-600'>section1</div>
+    <div className='h-screen w-full bg-gray-600'>Section1
+    <Navbar />
+    </div>
   )
 }
 
-export default section1
+export default Section1
